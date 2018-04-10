@@ -1,0 +1,123 @@
+body,html{
+    height: 100%;
+    margin: 0px;
+}
+
+.landing-page{
+
+    /* The image used */
+    background-image: url("../images/background.jpg");
+    /* width: 2000px; */
+
+    /* Full height */
+    height: 70%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* set  the tranparation of image*/
+    opacity: 0.5;
+}
+
+.text-group{
+    position: absolute;
+    z-index: 9999;
+    width: 100%;
+    margin-top: 35vh;
+}
+
+h5 {
+    color: #bd176f;
+    text-align: center;
+}
+
+.carousel-indicators .active {
+    background-color: #ab2ddd;
+}
+.carousel-indicators{
+    background-color: #bd176f;
+}
+
+.no-uppercase {
+    text-transform: none;
+}
+
+a{
+    text-align: center;
+}
+
+.page-footer{
+    background-color: #9e9e9e !important;
+}
+
+.carousel{
+    height:150px !important;
+}
+
+
+a.carousel-item{
+    margin-top: 30px !important;
+    
+}
+
+.carousel-fixed-item {
+    font-size: 30px !important;
+}
+
+.carousel-fixed-item .left{
+    height: 100px;
+    margin-left: 50px !important;
+    width: 100px;
+    font-size: 30px !important;
+}
+
+.carousel.carousel-slider.center.initialized{
+    font-size: 30px !important;
+}
+
+.carousel-fixed-item.active p{
+    font-size: 30px !important;
+}
+
+.carousel-fixed-item .right{
+    height: 100px;
+    font-size: 30px !important;
+    margin-right: 50px !important;
+    width: 100px;
+}
+
+
+.fitur{
+    padding-top: 25px;
+    padding-bottom: 20px;
+    background-color: #774174;
+}
+
+.fitur .row{
+    padding-top: 20px;
+}
+
+.footer{
+    height: 50px;
+    background-color: #5f4174;
+    margin: 0px;
+}
+
+.nav-extended{
+    background-color: #664177 !important;
+    height: 70px !important;
+}
+.tab.tab a{
+    font-size: 18px !important;
+    padding-top: 7px;
+}
+
+.header-form{
+    margin-top: 20px;
+}
+
+.none{
+    display: none;
+}
